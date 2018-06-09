@@ -237,7 +237,7 @@ Here are some tips to keep in mind when dealing with these kinds of sites:
 * use download delays (2 or higher). See :setting:`DOWNLOAD_DELAY` setting.
 * if possible, use `Google cache`_ to fetch pages, instead of hitting the sites
   directly
-* use a pool of rotating IPs. For example, the free `Tor project`_ or paid
+* use a pool of rotating IPs. For example, free `Tor project`_, `scylla` or paid
   services like `ProxyMesh`_. An open source alternative is `scrapoxy`_, a
   super proxy that you can attach your own proxies to.
 * use a highly distributed downloader that circumvents bans internally, so you
@@ -248,6 +248,7 @@ If you are still unable to prevent your bot getting banned, consider contacting
 `commercial support`_.
 
 .. _Tor project: https://www.torproject.org/
+.. _scylla: https://github.com/imWildCat/scylla
 .. _commercial support: https://scrapy.org/support/
 .. _ProxyMesh: https://proxymesh.com/
 .. _Google cache: http://www.googleguide.com/cached_pages.html
